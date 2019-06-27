@@ -5,6 +5,7 @@
 </head>
 <body>
 	<form>
+		<fieldset>
 		<legend><h1>
 		personal details</h1></legend>
 		First name: <input type="text" name="Username">
@@ -16,8 +17,11 @@
 	<label>Gender:</label>
 	<input type="radio" name="male"> male
 	<input type="radio" name="female"> female
+</fieldset>
 
-	<h1> Magazines</h1>
+
+    <fieldset>
+    	<legend><h1> Magazines</h1></legend>
 	<input type="checkbox" name="stavanger Aftenblab"> stavanger Aftenblab
      <br>
 	<input type="checkbox" name="teknish Ukeblad"> teknish Ukeblad
@@ -25,8 +29,11 @@
 	<input type="checkbox" name="se og hor"> se og hor
 	<br>
 	<input type="checkbox" name="familen"> familen
+     </fieldset>
 
-   <h1>subscription</h1>
+     <fieldset>
+     	<legend><h1>subscription</h1></legend>
+
     Period:  <select> 
    	<option  value="6">6 months</option>
    	<option  value="12">12 months</option>
@@ -34,6 +41,8 @@
    	<option  value="24">24 months</option>	 
    </select>
    <br>
+
+   </fieldset>
    <button type="submit">Subscribe</button>
 	</form>
 </body>
