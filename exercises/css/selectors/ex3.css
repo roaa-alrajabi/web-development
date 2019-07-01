@@ -1,0 +1,12 @@
+
+body{
+
+	background-color:#e6ffff
+; 
+}
+#alert
+{
+	border: 1px dashed red;
+     color:red;
+       box-shadow: 3px 3px red;
+}

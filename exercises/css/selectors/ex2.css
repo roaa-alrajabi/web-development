@@ -1,0 +1,24 @@
+#alert
+{
+	border: 1px dashed red;
+	color: red;
+	box-shadow: 3px 3px red;
+}
+
+.h2 
+{
+	background-color: #ffffb3;
+}
+
+.h1
+{
+	background-color:#ffc299;
+}
+
+.div2{
+
+		border: 1px solid black;
+
+
+	 box-shadow: 5px 5px #888888;
+}
