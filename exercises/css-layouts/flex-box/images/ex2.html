@@ -10,38 +10,62 @@
 	{
 		background-color:#b3d9ff;
 		font-family: 'Roboto', sans-serif;
+		
 
 
 	}
 	.div
 	{  
-		border: 1px solid white;
-		background-color: white;
+	background-color: white;
+		padding-top: 100px;
 		width: 700px;
 		margin: 0 auto;
 		height: 250px;
 		text-align: center;
-		padding-top: 100px;
+
+		
 	}
 
 	.pagination
 	{
 		display: flex;
-		
+		padding: 8px 50px;
+	
 	}
-</style>
+	.pagination a
+	{
+	 color: black;
+     border:1px solid black;
+     padding: 8px 16px;
+     text-decoration: none;
+     background-color: #b3d9ff;
+	}
+    .pagination a.hover{
+    background-color:#0099cc;
+    color: white;
+    border:1px solid black;
+
+    }
+
+</style>  
 <body>
-	<div class="div">
-<p style="font-size: 30px">Responsive pagination</p>
-<p>Iam responsive page link menu built with flexbox!</p>
+<div class="div">
+    <p style="font-size: 30px">Responsive pagination</p>
+    <p>Iam responsive page link menu built with flexbox!</p>
     <div class="pagination">  
 	 <a href="#">&laquo;</a>
+	  <a href="#"><</a>
      <a href="#">1</a>
      <a href="#">2</a>
      <a href="#">3</a>
-     <a href="#">4</a>
+     <a href="#" class="hover">4</a>
      <a href="#">5</a>
      <a href="#">6</a>
+     <a href="#">7</a>
+     <a href="#">8</a>
+     <a href="#">9</a>
+     <a href="#">10</a>
+      <a href="#">></a>
      <a href="#">&raquo;</a>
 	</div>
 </div>
